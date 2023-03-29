@@ -17,3 +17,15 @@
 ## About Dataset:
 ### Content
 #### The dataset for Apple stock prices contains the historical prices of Apple stocks from 2012 to 2019, with a total of almost 8 years of data. The dataset includes seven variables: date, open price, high price, low price, closing price, adjusted closing price, and trading volume. These variables provide information about the daily trading activity of Apple stocks, including the opening and closing prices, the highest and lowest prices, and the trading volume. The adjusted closing price takes into account any corporate actions such as stock splits or dividends, providing a more accurate reflection of the stock's value. The dataset is a valuable resource for analyzing and forecasting the performance of Apple stocks in the stock market.
+
+## Acknowledgements:
+#### The data has been taken and compiled from the Yahoo Finance.
+#### The below will get you the source of the data
+#### https://finance.yahoo.com/quote/AAPL/history?p=AAPL
+
+## Tools
+#### * Python : Jupyter Notebook
+
+## Project Summery:
+### 1. EDA
+####    From the data I came to Know that:
