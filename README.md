@@ -24,7 +24,7 @@
 #### https://finance.yahoo.com/quote/AAPL/history?p=AAPL
 
 ## Tools
-#### *Python : Jupyter Notebook
+#### Python : Jupyter Notebook
 
 ## Project Summery:
 ### 1. EDA
