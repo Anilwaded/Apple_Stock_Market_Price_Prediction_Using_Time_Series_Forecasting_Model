@@ -26,7 +26,7 @@
 ## Tools
 #### Python : Jupyter Notebook
 
-## Project Summery:
+## Project Summary:
 ### 1. EDA
 ####    From the data I came to Know that:
 ####    There are not any missing, duplicate and null values in the dataset.
