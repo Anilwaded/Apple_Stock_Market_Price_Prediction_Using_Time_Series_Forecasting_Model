@@ -29,3 +29,25 @@
 ## Project Summery:
 ### 1. EDA
 ####    From the data I came to Know that:
+####    There are not any missing, duplicate and null values in the dataset.
+####    Datatype of Date column was in object type
+
+### 2. Data Preprocessing
+####    Here, I converted the datatype of Date column to Datetime.
+####    Checked wheather the dataset contains holidays or not, Concluded Time series data contains holidays other than weekends.
+
+### 3. Model Building and Evaluation: 
+####   I have built the model with 4 different Time series Forecasting Models:
+####   1) ARIMA Model
+####   2) ARIMA with Seasonal order using Maximum likelihood estimation
+####   2) SARIMA with Quarterly Seasonality
+####   3) Holt-Winter Triple Exponential Smoothing
+####   As the exponential smoothing methods predict future patterns to heavily represent current ones they are less effective in long term forecasting. So selecting Arima with Seasonal order and Sarima with Quaterly seasonality as the best models for forecasting. As Sarima with Quaterly Seasonality looks computationally heavy, using Arima with seasonal order for the forecasting.
+
+### 4. Deployment
+####   I have deployed ARIMA with Seasonal Order using Maximum Likelyhood estimation with R2 Score of 45.75%
+
+#### Script: 
+
+## Conclusion:
+#### In conclusion, the project on Apple stock price prediction using time series models has demonstrated the effectiveness of ARIMA with seasonal order in forecasting the future stock prices of Apple Inc. The project involved data preprocessing, exploratory data analysis, and model building and evaluation. The selected model was deployed on a web app using Streamlit to allow users to input their preferred time range and obtain the predicted stock prices. This project is valuable to investors, traders, and analysts who seek to make informed decisions based on future stock price trends.
