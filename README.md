@@ -33,8 +33,8 @@
 ####    Datatype of Date column was in object type
 
 ### 2. Data Preprocessing
-####    Here, I converted the datatype of Date column to Datetime.
-####    Checked wheather the dataset contains holidays or not, Concluded Time series data contains holidays other than weekends.
+####    Here, I converted the datatype of Date column to Datetime and made it as index.
+####    Checked wheather the dataset contains holidays or not, Concluded that stock market data contains holidays other than weekends.
 
 ### 3. Model Building and Evaluation: 
 ####   I have built the model with 4 different Time series Forecasting Models:
@@ -45,7 +45,7 @@
 ####   As the exponential smoothing methods predict future patterns to heavily represent current ones they are less effective in long term forecasting. So selecting Arima with Seasonal order and Sarima with Quaterly seasonality as the best models for forecasting. As Sarima with Quaterly Seasonality looks computationally heavy, using Arima with seasonal order for the forecasting.
 
 ### 4. Deployment
-####   I have deployed ARIMA with Seasonal Order using Maximum Likelyhood estimation with R2 Score of 45.75%
+####   I have deployed ARIMA with Seasonal Order using Maximum Likelihood estimation with R2 Score of 45.75%
 
 #### Script: https://github.com/Anilwaded/Apple_Stock_Market_Price_Prediction_Project_Deployment#readme
 
