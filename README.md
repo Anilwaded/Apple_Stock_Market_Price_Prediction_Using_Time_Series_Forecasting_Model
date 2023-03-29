@@ -20,7 +20,7 @@
 
 ## Acknowledgements:
 #### The data has been taken and compiled from the Yahoo Finance.
-#### The below will get you the source of the data
+#### The below link will get you the source of the data
 #### https://finance.yahoo.com/quote/AAPL/history?p=AAPL
 
 ## Tools
