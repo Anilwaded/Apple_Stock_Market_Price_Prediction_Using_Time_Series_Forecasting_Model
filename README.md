@@ -47,7 +47,7 @@
 ### 4. Deployment
 ####   I have deployed ARIMA with Seasonal Order using Maximum Likelyhood estimation with R2 Score of 45.75%
 
-#### Script: 
+#### Script: https://github.com/Anilwaded/Apple_Stock_Market_Price_Prediction_Project_Deployment#readme
 
 ## Conclusion:
 #### In conclusion, the project on Apple stock price prediction using time series models has demonstrated the effectiveness of ARIMA with seasonal order in forecasting the future stock prices of Apple Inc. The project involved data preprocessing, exploratory data analysis, and model building and evaluation. The selected model was deployed on a web app using Streamlit to allow users to input their preferred time range and obtain the predicted stock prices. This project is valuable to investors, traders, and analysts who seek to make informed decisions based on future stock price trends.
